@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dummy project</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <nav class="">
+                <div class="logo">
+                    <img src="./image/logo.png" alt="">
+                </div>
+                <div class="nav-link" id="menu">
+                    <div class="inner-menu">
+                        <img src="./image/logo.png" alt="">
+                    </div>
+                    <ul>
+                        <li onclick="hidemenu()"><a href="#home" class="active">Home</a></li>
+                        <li onclick="hidemenu()"><a href="#">About Us</a></li>
+                        <li onclick="hidemenu()"><a href="#product">Product</a></li>
+                        <li onclick="hidemenu()"><a href="#">Contact us</a></li>
+                    </ul>
+
+                    <div class="inner-menu">
+                        <div class="search-bar inner-search-bar">
+                            <form action="">
+                                <input type="text" placeholder="Search Hear">
+                                <button><img src="./image/search.png" alt=""></button>
+                            </form>
+                        </div>
+                        <ul>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- beanr section  -->
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" placeholder="Search Hear">
+                        <button><img src="./image/search.png" alt=""></button>
+                    </form>
+                </div>
+                <div class="toggle-bar" onclick="hendleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <div class="benar container">
+            <div class="benar-col" data-aos="fade-right" data-aos-once="false" data-aos-duration="1200">
+                <div class="title">
+                    <h1>EVERY DAY
+                        A NEW LEVEL
+                        OF <span>SOUND</span></h1>
+                </div>
+                <div class="dis">
+                    <p>Lorem ipsum dolor sit amet consectetur. Diam sed quis massa sodales aliquam viverra nibh etiam.
+                    </p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="benar-col">
+                <div class="image-right">
+                    <img src="./image/image.png" alt="">
+
+                    <div class="popup-image-3 p-img">
+                        <img src="./image/Vector.png" alt="">
+                    </div>
+
+                    <div class="popup-image-4 p-img">
+                        <img src="./image/icon-1.png" alt="">
+                    </div>
+
+                    <div class="popup-image p-img">
+                        <img src="./image/Group14.png" alt="">
+                    </div>
+
+                    <div class="popup-image-2 p-img">
+                        <img src="./image/Group13(1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product section  -->
+    <section id="product">
+        <div class="container">
+            <div class="p-row">
+                <div class="inner-title">
+                    <h2>Products <span style="color: #FF724E;">&</span> services</h2>
+                </div>
+                <div class="slide-arror">
+                    <i class="fa-solid fa-angle-left left"></i>
+                    <i class="fa-solid fa-angle-right right"></i>
+                </div>
+            </div>
+            <div class="p-inner-row">
+                <div class="card" data-aos="fade-right" data-aos-once="true" data-aos-duration="1200">
+                    <div class="card-image">
+                        <img src="./image/Ellipse3.png" style="width: 80%;" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Unique Headphone</h3>
+                        <img src="./image/Group18.png" width="90%" alt="">
+                        <div class="d-flex">
+                            <h4>$20.60</h4>
+                            <a href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-up" data-aos-once="true" data-aos-duration="1200">
+                    <div class="card-image">
+                        <img src="./image/Ellipse(1).png" style="width: 80%;" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Unique Headphone</h3>
+                        <img src="./image/Group18.png" width="90%" alt="">
+                        <div class="d-flex">
+                            <h4>$20.60</h4>
+                            <a href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-aos="fade-left" data-aos-once="true" data-aos-duration="1200">
+                    <div class="card-image">
+                        <img src="./image/Ellipse(2).png" style="width: 80%;" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Unique Headphone</h3>
+                        <img src="./image/Group18.png" width="90%" alt="">
+                        <div class="d-flex">
+                            <h4>$20.60</h4>
+                            <a href="">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- explor section  -->
+    <section id="explor">
+        <div class="container">
+            <div class="ex-row">
+                <div class="ex-col-left" data-aos="fade-right" data-aos-once="true" data-aos-duration="1200"></div>
+                <div class="ex-col" data-aos="fade-left" data-aos-once="true" data-aos-duration="1200">
+                    <h2>Everyday A New Style
+                        In Your Ear
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Diam sed quis massa sodales aliquam viverra nibh etiam.
+                    </p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fea product  -->
+    <section id="features">
+        <div class="container">
+            <h2><span>Features</span> Of Product</h2>
+            <div class="fe-row" data-aos="fade-up" data-aos-once="true" data-aos-duration="1200">
+                <div class="fe-col">
+                    <img src="./image/icon-1(2).png" alt="">
+                    <h3>High Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. In mas</p>
+                </div>
+
+                <div class="fe-col">
+                    <img src="./image/icon-2.png" alt="">
+                    <h3>Sound Control</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. In mas</p>
+                </div>
+
+                <div class="fe-col afetr">
+                    <img src="./image/icon-3.png" alt="">
+                    <h3>Noise Cancelling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. In mas</p>
+                </div>
+
+                <div class="fe-col before">
+                    <img src="./image/icon-4.png" alt="">
+                    <h3>Virtual Sound</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. In mas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer data-aos="fade-up" data-aos-once="true" data-aos-duration="1200">
+        <div class="container">
+            <div class="f-main">
+                <h2>Subscribe to get the latest on sales,
+                    new realease and more</h2>
+                <div class="box">
+                    <input type="text" placeholder="Email Address...">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <div class="f-link">
+                <div class="link-1 fast-f">
+                    <div class="f-logo">
+                        <img src="./image/logo.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur. In massa condimentum felis urna ut justo. Dignissim augue
+                        mollis lobortis blandit posuere fermentum sollicitudin quis. </p>
+                    <div class="social-link">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-1">
+                    <h4>About US</h4>
+                    <ul class="f-menu-link">
+                        <li><a href="#"> Product & services</a></li>
+                        <li><a href="#"> Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#"> Download Brochure</a></li>
+                    </ul>
+                </div>
+                <div class="link-1">
+                    <h4>Shopping Guide</h4>
+                    <ul class="f-menu-link">
+                        <li><a href="#">Travelling</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">Healthcare</a></li>
+                        <li><a href="#">Real Estate</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Restaurants</a></li>
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">Social Networking</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/script.js"></script>
+
+</html>
